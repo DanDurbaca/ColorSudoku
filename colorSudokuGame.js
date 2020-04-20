@@ -45,6 +45,27 @@ function recursiveSolution(idxReached, matrixGenerated) {
     return false;
 }
 
+// FUNCTION PARAMETERS and DEFAULT VALUES !!
+// all the function parameters are SEPARATED by commas (,)
+// DEFAULT values of a parameter !
+// By default in computer science we mean -> without ANY interaction/change
+// water is flowing by default
+
+function displayAnAlert(someVariable, someOtherVariable) {
+    // someVariable is CALLED a PARAMETER of the function displayAnAlert
+    // the above function parameters -> someVariable and someotherVariable DO NOT have  DEFAULT values !
+}
+/*
+    function arguments = function parameters !!!!
+    when we call the displayAnAlert function WE NEED TO pass in some values for the parameters:
+    valid calls for the displayAnAlert will be:
+
+    displayAnAlert(2,3);
+    
+    INVALID CALLS: 
+    displayAnAlert();
+*/
+
 /* The game starts here !*/
 function startGame(hiddenBoxes = 4, containerId = "container") {
     solution.length = 0; // clear the contents of this array -> we will GENERATE it now !
